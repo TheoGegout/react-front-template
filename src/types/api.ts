@@ -10,3 +10,10 @@ export interface IPub {
         lng: number;
     }
 }
+
+export interface IBarathon {
+    _id: string;
+    name: string;
+    author: string;
+    checkpoints: string[];
+}
